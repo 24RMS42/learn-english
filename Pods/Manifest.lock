@@ -1,0 +1,33 @@
+PODS:
+  - BMPlayer (1.0.1):
+    - BMPlayer/Full (= 1.0.1)
+  - BMPlayer/Core (1.0.1)
+  - BMPlayer/Full (1.0.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.0.0)
+    - SnapKit (~> 4.0.0)
+  - Cosmos (13.0.0)
+  - Google-Mobile-Ads-SDK (7.28.0)
+  - HYParentalGate (1.0.4)
+  - NVActivityIndicatorView (4.0.1):
+    - NVActivityIndicatorView/Presenter (= 4.0.1)
+  - NVActivityIndicatorView/Presenter (4.0.1)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - BMPlayer (~> 1.0.0)
+  - Cosmos (~> 13.0)
+  - Google-Mobile-Ads-SDK
+  - HYParentalGate
+
+SPEC CHECKSUMS:
+  BMPlayer: 44eebf06eb01450dd14ea74b27d07c5222f0eed1
+  Cosmos: af3973becc045af335b64498c9812034876b7661
+  Google-Mobile-Ads-SDK: 7f9bc0011df363ae5616449de3682a14c4701612
+  HYParentalGate: 0ef967344fbbab7a021aec8d397f9584b53bf7c7
+  NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: aab4e5f12e1cc54be708155c0d16e81894066ccc
+
+COCOAPODS: 1.4.0
