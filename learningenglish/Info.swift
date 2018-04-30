@@ -9,7 +9,19 @@
 import UIKit
 
 class Info: NSObject {
-    static let rE_Names = [["LIONESS", "RED PANDA", "ORANGUTAN", "KOALA", "FOX", "CHIPMUNK", "CHAMELEON", "BISON", "BLACK BEAR", "BOAR", "CHEETAH", "CHIMPANZEE", "DEER", "ELEPHANT", "GAZELLE", "GIRAFFE", "GORILLA", "GRIZZLY BEAR", "HEDGEHOG", "HYENA", "JACKAL", "JAGUAR", "KANGAROO", "LEOPARD", "LION", "LYNX", "MEERKAT", "MONKEY", "OPOSSUM", "PANDA", "POLAR BEAR", "PORCUPINE", "RACCOON", "SQUIRREL", "TIGER", "WOLF", "ZEBRA", "LIZARD", "COBRA SNAKE", "IGUANA", "SALAMANDER", "BAT", "ANTELOPE", "BLACK LEOPARD", "COUGAR", "RAT", "RHINO"],
+    static let rE_Names_new = [["plate", "steel_wool", "sink", "mug", "jar", "glass", "freezer", "dishwasher", "dough", "garbage_bag",
+                                "garbage_can", "ice_cube_tray", "island", "jug", "kettle", "knife", "knife_sharpener", "leftover", "meet_grinder", "mold",
+                                "mop", "mortar_and_pestle", "napkin", "papertowel", "refrigerator", "rice_cooker", "salt", "sieve", "skewer", "skillet",
+                                "sponge", "spoon", "tablespoon", "tea_cup", "teapot", "teaspoon", "pressure_cooker", "grinder", "microwave_oven", "table",
+                                "apron", "blender", "bottle", "bowl", "dish_soap", "broom", "can"],
+                               [],
+                               [],
+                               []]
+    static let rE_Names = [["plate", "steel_wool", "sink", "mug", "jar", "glass", "freezer", "dishwasher", "dough", "garbage_bag",
+                            "garbage_can", "ice_cube_tray", "island", "jug", "kettle", "knife", "knife_sharpener", "leftover", "meet_grinder", "mold",
+                            "mop", "mortar_and_pestle", "napkin", "papertowel", "refrigerator", "rice_cooker", "salt", "sieve", "skewer", "skillet",
+                            "sponge", "spoon", "tablespoon", "tea_cup", "teapot", "teaspoon", "pressure_cooker", "grinder", "microwave_oven", "table",
+                            "apron", "blender", "bottle", "bowl", "dish_soap", "broom", "can"],
                            ["GOOSE", "HEN", "ROOSTER", "CAT", "COW", "DOG", "DONKEY", "DUCK", "GOAT", "GOLDFISH", "HORSE", "MOUSE", "MULE", "PIG",
                             "RABBIT", "SHEEP", "TURKEY", "CAMEL"],
                            ["STARLING", "ROBIN", "EAGLE", "BEE EATER", "BUDGIE", "CANARY", "CROW", "DOVE", "FINCH", "FLAMINGO", "HAWK", "HERON", "HOOPOE", "HORNBILL", "HUMMINGBIRD", "OSTRICH", "OWL", "PARROT", "PARTRIDGE", "PEACOCK", "PELICAN", "PENGUIN", "PHEASANT", "SEAGULL", "SPARROW", "STORK", "SWAN", "VULTURE", "WOODPECKER", "PIGEON", "CARDINAL", "GOLDFINCH", "PUFFIN"],
@@ -86,7 +98,7 @@ class Info: NSObject {
         let animalName = name.replacingOccurrences(of: " ", with: "_").lowercased()
         var soundName = ""
         if type == 0 {
-            soundName = "s_\(animalName)"
+            soundName = "e_\(animalName)"
         } else if type == 1 {
             soundName = "e_\(animalName)"
         } else if type == 2 {
