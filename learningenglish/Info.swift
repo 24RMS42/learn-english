@@ -13,9 +13,9 @@ class Info: NSObject {
     static let rE_Names = [["plate", "steel wool", "sink", "mug", "jar", "glass", "freezer", "dishwasher", "dough", "garbage bag",
                             "garbage can", "ice cube tray", "island", "jug", "kettle", "knife", "knife sharpener", "leftover", "meet grinder", "mold",
                             "mop", "mortar and pestle", "napkin", "papertowel", "refrigerator", "rice_cooker", "salt", "sieve", "skewer", "skillet",
-                            "sponge", "spoon", "tablespoon", "tea_cup", "teapot", "teaspoon", "pressure_cooker", "grinder", "microwave oven", "table",
-                            "apron", "blender", "bottle", "bowl", "dish_soap", "broom", "can", "can_opener", "china", "cook",
-                            "cook_book", "cup", "cupboard", "cutting_board", "dish", "dish_rack", "fork", "ice_bucket", "steamer", "stove",
+                            "sponge", "spoon", "tablespoon", "tea_cup", "teapot", "teaspoon", "pressure cooker", "grinder", "microwave oven", "table",
+                            "apron", "blender", "bottle", "bowl", "dish_soap", "broom", "can", "can opener", "china", "cook",
+                            "cook_book", "cup", "cupboard", "cutting_board", "dish", "dish rack", "fork", "ice bucket", "steamer", "stove",
                             "toaster", "tray"],
                            ["accountant", "actor", "actress", "athlete", "author", "baker", "banker", "barber", "beautician", "broker",
                             "burglar", "butcher", "carpenter", "chauffeur", "chef", "clerk", "craftman", "criminal", "crook", "dentist",
@@ -114,7 +114,8 @@ class Info: NSObject {
     }
     
     static func getEName(category: Int, index: Int) -> String {
-        return rE_Names[category][index]
+        let eName = rE_Names[category][index]
+        return eName.replacingOccurrences(of: "_", with: " ")
     }
     
     static func getPName(category: Int, index: Int) -> String {
@@ -147,7 +148,7 @@ class Info: NSObject {
         let animalName = name.replacingOccurrences(of: " ", with: "_").lowercased()
         var soundName = ""
         if type == 0 {
-            soundName = "s_\(animalName)"
+            soundName = "e_\(animalName)"
         } else if type == 1 {
             soundName = "e_\(animalName)"
         } else if type == 2 {

@@ -267,11 +267,12 @@ class LearnViewController: UIViewController, UICollectionViewDataSource, UITable
     
     func setupPlayerResoucre(_ index: Int) {
         var urlString = "https://promoletter.com/learnenglish/videos/"
-        if index >= 10 {
-            urlString += "p_1_lesson_\(index-9).mp4"
-        } else {
-            urlString += "e_1_lesson_\(index+1).mp4"
-        }
+//        if index >= 10 {
+//            urlString += "p_1_lesson_\(index-9).mp4"
+//        } else {
+//            urlString += "e_1_lesson_\(index+1).mp4"
+//        }
+        urlString += "p_lesson_\(index+1).mp4"
         let url = URL(string: urlString)!
         
     //    let subtitle = BMSubtitles(url: url)
