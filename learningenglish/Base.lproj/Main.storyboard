@@ -149,9 +149,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="46" height="36.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Om-2h-Q8q">
-                                                <rect key="frame" x="3" y="0.0" width="40" height="36.5"/>
+                                                <rect key="frame" x="6" y="0.0" width="34" height="36.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="2Om-2h-Q8q" secondAttribute="height" multiplier="42:39" id="ugX-UT-yBZ"/>
+                                                    <constraint firstAttribute="width" secondItem="2Om-2h-Q8q" secondAttribute="height" multiplier="42:45" id="ugX-UT-yBZ"/>
                                                 </constraints>
                                                 <state key="normal" image="ic_wild_default"/>
                                                 <state key="selected" image="ic_wild_selected"/>
@@ -170,9 +170,9 @@
                                         <rect key="frame" x="46" y="0.0" width="45.5" height="36.5"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jC-Wf-rm2">
-                                                <rect key="frame" x="3.5" y="0.0" width="39.5" height="36.5"/>
+                                                <rect key="frame" x="6" y="0.0" width="34.5" height="36.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="8jC-Wf-rm2" secondAttribute="height" multiplier="42:39" id="Inz-ve-jB1"/>
+                                                    <constraint firstAttribute="width" secondItem="8jC-Wf-rm2" secondAttribute="height" multiplier="42:45" id="Inz-ve-jB1"/>
                                                 </constraints>
                                                 <state key="normal" image="ic_domestic_default"/>
                                                 <state key="selected" image="ic_domestic_selected"/>
@@ -191,9 +191,9 @@
                                         <rect key="frame" x="91.5" y="0.0" width="45.5" height="36.5"/>
                                         <subviews>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoI-CK-wGm">
-                                                <rect key="frame" x="2.5" y="0.0" width="39" height="36.5"/>
+                                                <rect key="frame" x="5" y="0.0" width="34" height="36.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="qoI-CK-wGm" secondAttribute="height" multiplier="42:39" id="BIk-lK-Pac"/>
+                                                    <constraint firstAttribute="width" secondItem="qoI-CK-wGm" secondAttribute="height" multiplier="42:45" id="BIk-lK-Pac"/>
                                                 </constraints>
                                                 <state key="normal" image="ic_birds_default"/>
                                                 <state key="selected" image="ic_birds_selected"/>
@@ -212,9 +212,9 @@
                                         <rect key="frame" x="137" y="0.0" width="45" height="36.5"/>
                                         <subviews>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGi-pj-ieR">
-                                                <rect key="frame" x="2.5" y="0.0" width="39.5" height="36.5"/>
+                                                <rect key="frame" x="5" y="0.0" width="34.5" height="36.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="sGi-pj-ieR" secondAttribute="height" multiplier="42:39" id="4eU-rR-wZH"/>
+                                                    <constraint firstAttribute="width" secondItem="sGi-pj-ieR" secondAttribute="height" multiplier="42:45" id="4eU-rR-wZH"/>
                                                 </constraints>
                                                 <state key="normal" image="ic_aquatic_default"/>
                                                 <state key="selected" image="ic_aquatic_selected"/>
@@ -233,9 +233,9 @@
                                         <rect key="frame" x="182" y="0.0" width="45" height="36.5"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DlF-k6-LDr">
-                                                <rect key="frame" x="3" y="0.0" width="39.5" height="36.5"/>
+                                                <rect key="frame" x="5.5" y="0.0" width="34.5" height="36.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="DlF-k6-LDr" secondAttribute="height" multiplier="42:39" id="z96-Rv-A5E"/>
+                                                    <constraint firstAttribute="width" secondItem="DlF-k6-LDr" secondAttribute="height" multiplier="42:45" id="z96-Rv-A5E"/>
                                                 </constraints>
                                                 <state key="normal" image="ic_transportations_default"/>
                                                 <state key="selected" image="ic_transportations_selected"/>
@@ -254,9 +254,9 @@
                                         <rect key="frame" x="227" y="0.0" width="45.5" height="36.5"/>
                                         <subviews>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVt-iW-35C">
-                                                <rect key="frame" x="3" y="0.0" width="40" height="36.5"/>
+                                                <rect key="frame" x="6" y="0.0" width="34" height="36.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="iVt-iW-35C" secondAttribute="height" multiplier="42:39" id="DNh-Xb-VbS"/>
+                                                    <constraint firstAttribute="width" secondItem="iVt-iW-35C" secondAttribute="height" multiplier="42:45" id="DNh-Xb-VbS"/>
                                                 </constraints>
                                                 <state key="normal" image="ic_verbs_default"/>
                                                 <state key="selected" image="ic_verbs_selected"/>
@@ -275,9 +275,9 @@
                                         <rect key="frame" x="272.5" y="0.0" width="45.5" height="36.5"/>
                                         <subviews>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfA-CB-fpO">
-                                                <rect key="frame" x="2.5" y="0.0" width="39.5" height="36.5"/>
+                                                <rect key="frame" x="5" y="0.0" width="34.5" height="36.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="EfA-CB-fpO" secondAttribute="height" multiplier="42:39" id="tis-pX-Ehn"/>
+                                                    <constraint firstAttribute="width" secondItem="EfA-CB-fpO" secondAttribute="height" multiplier="42:45" id="tis-pX-Ehn"/>
                                                 </constraints>
                                                 <state key="normal" image="ic_musical_default"/>
                                                 <state key="selected" image="ic_musical_selected"/>
@@ -296,9 +296,9 @@
                                         <rect key="frame" x="318" y="0.0" width="46" height="36.5"/>
                                         <subviews>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyo-va-4bu">
-                                                <rect key="frame" x="3" y="0.0" width="39.5" height="36.5"/>
+                                                <rect key="frame" x="5.5" y="0.0" width="34.5" height="36.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="kyo-va-4bu" secondAttribute="height" multiplier="42:39" id="u55-jl-L3M"/>
+                                                    <constraint firstAttribute="width" secondItem="kyo-va-4bu" secondAttribute="height" multiplier="42:45" id="u55-jl-L3M"/>
                                                 </constraints>
                                                 <state key="normal" image="ic_video_default"/>
                                                 <state key="selected" image="ic_video_selected"/>
@@ -1116,29 +1116,29 @@
         <image name="back_button" width="48" height="48"/>
         <image name="background_learn_real" width="640" height="426"/>
         <image name="background_level_selection" width="1600" height="960"/>
-        <image name="background_main_real" width="533" height="320"/>
+        <image name="background_main_real" width="640" height="426"/>
         <image name="background_videolist" width="410" height="667"/>
         <image name="background_win" width="1137" height="508"/>
         <image name="button_level_selection" width="649" height="158"/>
-        <image name="ic_aquatic_default" width="144" height="144"/>
+        <image name="ic_aquatic_default" width="144" height="192"/>
         <image name="ic_aquatic_selected" width="144" height="192"/>
-        <image name="ic_birds_default" width="144" height="144"/>
+        <image name="ic_birds_default" width="144" height="192"/>
         <image name="ic_birds_selected" width="144" height="192"/>
-        <image name="ic_domestic_default" width="144" height="144"/>
+        <image name="ic_domestic_default" width="144" height="192"/>
         <image name="ic_domestic_selected" width="144" height="192"/>
-        <image name="ic_musical_default" width="144" height="144"/>
+        <image name="ic_musical_default" width="144" height="192"/>
         <image name="ic_musical_selected" width="144" height="192"/>
         <image name="ic_play_english_name" width="172" height="172"/>
         <image name="ic_play_persian_name" width="172" height="172"/>
         <image name="ic_play_skip" width="172" height="172"/>
         <image name="ic_play_voice" width="172" height="172"/>
-        <image name="ic_transportations_default" width="144" height="144"/>
+        <image name="ic_transportations_default" width="144" height="192"/>
         <image name="ic_transportations_selected" width="144" height="192"/>
-        <image name="ic_verbs_default" width="144" height="144"/>
+        <image name="ic_verbs_default" width="144" height="192"/>
         <image name="ic_verbs_selected" width="144" height="192"/>
         <image name="ic_video_default" width="144" height="144"/>
         <image name="ic_video_selected" width="144" height="192"/>
-        <image name="ic_wild_default" width="144" height="144"/>
+        <image name="ic_wild_default" width="144" height="192"/>
         <image name="ic_wild_selected" width="144" height="192"/>
         <image name="ic_win_replay" width="96" height="96"/>
         <image name="main_exit_ic" width="48" height="48"/>
